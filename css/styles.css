@@ -32,7 +32,7 @@
    
 }
 .image{
-    margin-top: 92px ;
+    margin-top: 92px;
     width: 177px;
     height: 158px;
 }
@@ -47,8 +47,6 @@
 }
 .sspan{
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
