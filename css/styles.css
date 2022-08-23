@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    
 }
 
 
@@ -11,8 +11,6 @@
     background: linear-gradient(180deg, #92DDC2 0%, #544E94 100%);
     padding-top: 326px;
     padding-bottom: 365px;
-    /* padding-left: 520px;
-    padding-right: 622px; */
     text-align: center;
  
   
@@ -23,51 +21,38 @@
     max-width: 375px;
     display: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto; 
-    /* max-width: 375px;
-    /* height: 667px; */
     background: #0A0171;
     border: 1px solid #FFFFFF;
     box-shadow: 30px 30px 35px rgba(10, 1, 113, 0.3);
     border-radius: 30px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
    
 }
 .image{
-    display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 92px ;
     width: 177px;
     height: 158px;
 }
 .fspan{
-
     display: block;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-
-    color: #FFFFFF;
     text-align: center;
-
     padding-top: 51px;
 
 }
 .sspan{
-    
-    display: inline-block;
+    display: block;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #FFFFFF;
     padding-top: 27px;
 
 }
@@ -75,37 +60,31 @@
 .conteiner>form{
     display: block;
     margin-top: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
     
     
 }
 .input-mail{
-   background: none;
+    background: none;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     box-sizing: border-box;
-    font-family: 'Raleway'; 
     font-style: normal;
     font-size: 14px;
-    color: #FFFFFF;
 }
 
 .input-password{
     margin-top: 18px;
-    color: #FFFFFF;
     font-size: 14px;
     background: none;
-    padding: 20px 153px 23px 20px;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
-    font-family: 'Raleway'; 
     font-style: normal;
     
 }
 .input-mail, .input-password{
     width: 335px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left: 20px;
     padding: 19px 20px 23px 20px;
 }
 ::placeholder{
@@ -117,19 +96,14 @@
    }
 
 .input-button{
-    margin-right: 20px;
     margin-top: 25px;
-    margin-left: 20px;
     margin-bottom: 58px;
     padding: 17px 138px 18px 138px;
     background: #2BC990;
     border-radius: 20px;
-    font-family: 'Raleway';
+    color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
     cursor: pointer;
-    color: #FFFFFF;
 
 }
