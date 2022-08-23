@@ -80,6 +80,7 @@
 .input-mail, .input-password{
     width: 335px;
     padding: 19px 20px 23px 20px;
+    color: #FFFFFF
 }
 ::placeholder{
     font-family: 'Raleway';
